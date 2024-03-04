@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>Login</h1>
+        <div class="input-box" id="username">
+          <input type="text" placeholder="Username" required />
+          <box-icon type="solid" name="user"></box-icon>
+        </div>
+        <div class="input-box" id="password">
+          <input type="password" placeholder="Password" required />
+        </div>
+        <div class="remember">
+          <label><input type="checkbox" />Remember Me</label>
+          <a href="#">Forget Password</a>
+          <box-icon type="solid" name="lock-alt"></box-icon>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register">
+          <p>Dont have an account? <a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
